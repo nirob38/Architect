@@ -1,0 +1,476 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans';
+    font-style: normal;
+}
+/* Header Part */
+.header{
+    width: 1902px;
+    height: 1300px;
+    background: rgba(255, 144, 14, 0.1)
+}
+.header-one{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 150px;
+}
+.header-one p{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.header-one ul{
+    display: flex;
+    list-style: none;
+}
+.header-one ul li{
+    padding-right: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+.header-two{
+    justify-content: center;
+    text-align: center;
+}
+.header-two h1{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #131313;
+}
+.header-two p{
+    /* width: 868px;
+    height: 52px;
+    margin-left: 512px; */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    
+    color: #727272;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.btn-one{
+    background-color: orange;
+    width: 180px;
+    height: 64px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.btn-one:hover{
+    transition: all 0.2s linear;
+    transform: scale(1.04);
+}
+.header-two img{
+    width: 1440px;
+    height: 700px;
+}
+
+
+/* Body Part Saection One */
+
+.one{
+    display: flex;
+    align-items: center;
+    padding: 50px 300px;
+
+}
+.one-photo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.one-photo img{
+    width: 342px;
+    height: 342px;
+    border-radius: 8px;
+}
+.one-text{
+    width: 537px;
+    height: 312px;
+    padding-left: 50px;
+}
+.one-text h3{
+    color: #727272;
+    font-weight: 700;
+    font-size: 45px;
+}
+.sp1{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+.sp2{
+    color: #ff900e;
+    font-weight: 700;
+    font-size: 45px;
+}
+.one-text p{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Section Two starts */
+.two{
+    padding: 40px 210px 40px 250px;
+    display: flex;
+    gap: 80px;
+}
+
+.two-text{
+    padding-right: 50px;
+    width: 586px;
+    height: 982px;
+}
+.two-header{
+    display: flex;
+}
+.two-header h3{
+    width: 468px;
+    height: 106px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    padding-left: 20px;
+    color: #131313;
+}
+.two-line{
+    width: 5px;
+    height: 106px;
+    background: #FF900E;
+}
+.two-text .two-text1{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #727272;
+}
+.two-text .two-discription{
+    margin-top: 25px;
+}
+.two-discription{
+    width: 586px;
+    height: 150px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px 42px 5px 30px;
+    
+}
+.two-discription:hover{
+    transition: all 0.2s linear;
+    transform: scale(1.08);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+}
+.two-discription h3{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+}
+.two-discription p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-top: 10px;
+    color: #727272;
+
+}
+.two-photo{
+    width: 800px;
+    height: 1059px;
+}
+.two-photo img{
+    width: 708px;
+    height: 982px;
+    border-radius: 8px;
+}
+.two-photo .two-btn{
+    position: relative;
+    right: 20px;
+    top: -100px;
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    border-radius: 8px;
+    
+}
+.two-photo .two-btn h3{
+    text-align: center;
+    padding: 45px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+.two-photo .two-btn h3 .two-spn{
+    font-weight: 500;
+    font-size: 25px;
+    color: #FFFFFF;
+    
+}
+
+/* Section three Starts  */
+
+.three{
+    padding: 100px 200px 100px 200px;
+}
+.three-header{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+
+}
+.three-header-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 542px;
+    height: 52px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    color: #727272;
+}
+.three-description{
+    display: flex;
+    gap: 125px;
+}
+.three-description :hover{
+    transition: all 0.2s linear;
+    transform: scale(1.0);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+}
+.three-description .three-box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 30px;
+    line-height: 40px;
+
+}
+.three-box h3{
+    font-size: 45px;
+    font-weight: 600;
+    color: #424242;
+    
+}
+.three-box p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #727272;
+}
+
+/* Section four Starts */
+
+.four{
+    padding: 100px 200px;
+}
+.four-text{
+    text-align: center;
+}
+.four-text h3{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+
+}
+.four-text p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    padding: 20px;
+}
+.four-img{
+    padding-top: 100px;
+    display: flex;
+    gap: 150px;
+    
+}
+.four-img img{
+    filter: grayscale(100%);
+}
+.four-img img:hover{
+    filter: grayscale(0%);
+}
+/* <!-- -----------Contact------- --> */
+
+.contact{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+
+}
+.contact h3{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 45px;
+}
+.contact p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+}
+.icon .fa-brands{
+    color: #f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+
+}
+
+/*  Foorter part starts */
+.footer{
+    padding: 100px 200px;
+}
+.ftr{
+    width: 1440px;
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+}
+.ftr p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 10px;
+    text-align: center;
+    padding-top: 40px;
+    color: #424242;
+}
+/* --------For mobile view--------- */
+@media (max-width:600px){
+    .header-one{
+        
+        padding: 30px 10px;
+    }
+    .header-one p{
+        font-size: 32px;
+    }
+    .header-two h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .header-one ul{
+        display: block;
+        
+    }
+    .header{
+        width: 389px;
+        height: 760px;
+    }
+    .header-two img{
+        width: 360px;
+        height: 270px;
+    }
+    .btn-one{
+        width: 145px;
+        height: 50px;
+    }
+    .one{
+        display: block;
+        padding: 50px 30px;
+    }
+    .one-photo{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .one .one-photo{
+        float: bottom;
+    }
+    .one-text{
+        width: 343px;
+        padding-left: 5px;
+    }
+    .two{
+        padding: 40px 20px 40px 10px;
+        display: block;
+    }
+    .two-text{
+        width: 370px;
+        height: 1110px;
+        padding-right: 0px;
+    }
+    .two-discription{
+        width: 270px;
+    }
+    .two-photo{
+        width: 371px;
+        height: 570px;
+    }
+    .two-photo img{
+        width: 346px;
+        height: 490px;
+    }
+    .two-photo .two-btn{
+        top:-75px;
+        width: 215px;
+        height: 150px;
+    }
+    .two-photo .two-btn h3{
+        padding: 34px;
+        font-size: 42px;
+        line-height: 30px;
+    }
+    .three{
+        padding: 100px 10px 100px 20px;
+    }
+    .three-header-text{
+        width: 340px;
+    }
+    .three-description{
+        display: block;
+    }
+    .three-description .three-box{
+        width: 290px;
+    }
+    .four{
+        padding: 56px 20px;
+    }
+    .four-img{
+        padding-top: 40px;
+        display: block;
+    }
+    .four-img img{
+        width: 120px;
+        padding-left: 40px;
+        padding-bottom: 20px;
+    }
+    .contact{
+        width: 90%;
+        padding: 30px 20px;
+    }
+    .footer{
+        padding: 70px 10px;
+    }
+    .ftr{
+        width: 365px;
+        height: 50px;
+    }
+    .ftr p{
+        font-size: 12px;
+        padding-top: 22px;
+    }
+}
